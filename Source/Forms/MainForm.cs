@@ -24,7 +24,6 @@ namespace Source.Forms
             var students = FakeRepo.GetStudents();
 
 
-
             for (int i = students.Count - 1; i >= 0; i--)
             {
                 UC_Student uc = new(students[i]);
